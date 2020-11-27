@@ -11,6 +11,7 @@ const router = [
   {
     path: '/dangerousIndex',
     name: 'dangerousIndex',
+    plugin: 'itsDangerous',
     component: dangerousIndex,
     params: {},
     props: true,
@@ -21,6 +22,7 @@ const router = [
         name: 'policy',
         title: '策略',
         meta: {},
+        plugin: 'itsDangerous',
         component: policy
       },
       {
@@ -28,6 +30,7 @@ const router = [
         name: 'rule',
         title: '规则',
         meta: {},
+        plugin: 'itsDangerous',
         component: rule
       },
       {
@@ -35,6 +38,7 @@ const router = [
         name: 'subjects',
         title: '角色',
         meta: {},
+        plugin: 'itsDangerous',
         component: subjects
       },
       {
@@ -42,6 +46,7 @@ const router = [
         name: 'targets',
         title: '目标对象',
         meta: {},
+        plugin: 'itsDangerous',
         component: targets
       },
       {
@@ -49,6 +54,7 @@ const router = [
         name: 'match-params',
         title: '调用参数',
         meta: {},
+        plugin: 'itsDangerous',
         component: matchParams
       },
       {
@@ -56,6 +62,7 @@ const router = [
         name: 'plugin-params',
         title: '插件参数',
         meta: {},
+        plugin: 'itsDangerous',
         component: pluginParams
       },
       {
@@ -63,6 +70,7 @@ const router = [
         name: 'boxes',
         title: '试盒',
         meta: {},
+        plugin: 'itsDangerous',
         component: boxes
       }
     ]
